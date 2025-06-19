@@ -1,0 +1,121 @@
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+   width: 100%;   /* 100% of viewport width */
+  height: 100%;
+}
+.page-container {
+      width: 100%;
+      margin: 0 auto; /* center horizontally */
+      background-color: #f0f0f0;
+      padding: 80px;
+ 
+  margin: auto;
+  padding: 1rem;
+
+    }
+ .ma-section {
+      
+      display: flex;
+    justify-content: center;
+      background-color: #080808;
+      margin: auto;
+      width: 100%;
+      text-align: center;
+    }    
+
+.top-bar {
+  background-color: #111111ef;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  padding: 8px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+border-radius: 10px;
+
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+}
+
+.my-text {
+      color: #007BFF; /* blue */
+    }
+  
+.nav-left a {
+  margin: 0 15px;
+  color: #333;
+  text-decoration: none;
+  font-size: 15px;
+  position: relative;
+}
+
+.nav-left a:hover {
+  text-decoration: underline;
+}
+
+.logo img {
+  height: 60px;
+  position: absolute;
+  object-position: 5%;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+.cart-icon {
+  position: relative;
+}
+
+.cart-count {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background: #000;
+  color: #fff;
+  font-size: 11px;
+  padding: 2px 5px;
+  border-radius: 50%;
+}
+
+
+.section-image img {
+    position: absolute;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+   display: flex;
+  flex-wrap: wrap;
+  
+    }
+
+    .ma-sectionn {
+  border: 2px solid #000;     /* Couleur et épaisseur du cadre */
+  padding: 20px;              /* Espace intérieur */
+  margin: 20px auto;          /* Espace extérieur centré */
+  max-width: 600px;           /* Largeur maximale */
+  background-color: #fff;     /* Fond blanc */
+}
+
+
+    
+
+

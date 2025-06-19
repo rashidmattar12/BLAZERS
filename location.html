@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>BLAZERS</title>
+    <style>
+    /* Paste CSS below here */
+    /* TOP BAR STYLE */
+    @media (max-width: 768px) {
+  .column {
+    flex: 100%;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+}
+
+.section {
+      
+      display: flex;
+    justify-content: center;
+      background-color: #080808;
+      margin: auto;
+      width: 100%;
+      height: 100%;
+      
+    }
+
+
+    /* HEADER */
+body {
+       width: 100%;
+  margin: 0 auto;
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+    }
+
+    .navbar {
+      position: absolute; /* allows free placement */
+      top: 4%;          /* vertical position */
+      left: 46%; 
+     display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: white;
+      border-bottom: 1px solid #ccc;
+      
+  
+  
+      
+      
+     
+    }
+
+    .carte-produit{
+      background-color: #666;
+    height: 400%;
+    width: 100%;
+}
+
+
+    .navbar a:hover {
+      background-color: #faf9f9;
+    }
+     .container {
+  width: 100%;
+  padding: 1rem;
+  width: 100%;
+      margin: auto; /* center horizontally */
+      
+      padding: 80px;
+        width: auto;
+  max-width: 1200px;
+  
+  padding: 1rem;
+}
+
+.logo {
+      position: relative;
+      height: auto;
+      width: 100px; /* adapte selon la taille de ton logo */
+      align-items: 100%;
+      justify-content: center;
+      justify-items: center;
+    }
+
+
+    /* PRODUCT */
+
+
+    .section-produits {
+      background-color: #ffffff;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); /* 4 colonnes */
+      gap: 20px; /* Espace entre les produits */
+    }
+
+    .produit {
+      background: white;
+      padding: 15px;
+      text-align: center;
+      margin: auto;
+      height: 100%;
+    }
+
+    .produit img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .produit h3 {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+
+    .produit p {
+      color: #666;
+      font-size: 14px;
+    }
+
+    .prix {
+      font-weight: bold;
+      color: #e60023;
+      margin: 10px 0;
+    }
+
+    .produit button {
+      padding: 8px 15px;
+      background-color: #0a0a0a;
+      color: white;
+      border: none;
+      border-radius: 0px;
+      cursor: pointer;
+    }
+
+    .produit button:hover {
+      background-color: #070707;
+    }
+
+    @media (max-width: 900px) {
+      .section-produits {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .section-produits {
+        grid-template-columns: 1fr;
+      }
+    }
+    /* ABOUT */
+     .about-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 50px;
+      background-color: #ffffff;
+      gap: 10%;
+     
+    }
+
+    .about-text {
+      flex: 1;
+      font-family: Arial, sans-serif;
+      text-decoration: none;
+    }
+
+    .about-text h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .about-text p {
+      font-size: 18px;
+      line-height: 1.2;
+      color: #020202;
+      text-decoration: none;
+    }
+
+    .about-image {
+      flex: 1;
+      height: 80%;
+      width: 50%;
+    }
+
+    .about-image img {
+      width: 80%;
+      max-width: 50%;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .about-section {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .about-image img {
+        max-width: 90%;
+      }
+    }
+
+    /* social media */
+    .social-media {
+  background-color: #ffffff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.social-media h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.social-icons a img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover img {
+  transform: scale(1.2);
+}
+</style>
+<style>
+.ma-sectionn {
+  border: 2px solid #030303;     /* Couleur et épaisseur du cadre */
+  padding: 20px;              /* Espace intérieur */
+  margin: 20px auto;          /* Espace extérieur centré */
+  max-width: 1000px;           /* Largeur maximale */
+  background-color: #fffefe;     /* Fond blanc */
+}
+
+    /* FOOTER */
+.footer {
+  background-color: #f3efef;      /* Dark background */
+  color: #080808;                 /* White text */
+  padding: 20px 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+  </style>
+  <html>
+
+ </head>
+
+<body>
+
+<!-- Top Bar -->
+
+  <section class="section">
+    <div class="section"> <div class="announcement-bar" role="region" aria-label="Announcement"><p class="announcement-bar__message h5"></p>
+    <h5><p style="color: rgb(255, 252, 252);">FREE SHIPPING ON ALL ORDERS $100+</p> </h5>
+      </section>
+
+  <meta charset="UTF-8">
+  <title>Menu de Navigation</title>
+  
+
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<!-- Header -->
+
+<style>
+  .navbar .logo {
+      height: 40px;
+    }
+
+    .navbar-links {
+      display: flex;
+      
+      justify-content:center;  /* ❌ this spreads items to ends */
+      gap: 10%;
+  align-items: center;
+    }
+
+    .navbar-links a {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      
+    }
+  .hamburger {
+      display: none;
+      font-size: 30px;
+      cursor: pointer;
+      background: none;
+      border: none;
+    }
+  .mobile-menu {
+      display: none;
+      flex-direction: column;
+      padding: 20px;
+    }
+
+    .mobile-menu a {
+      margin: 10px 0;
+      color: black;
+      text-decoration: none;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .navbar-links {
+        display: none; /* Cacher le menu horizontal */
+      }
+
+      .hamburger {
+        display: block; /* Afficher le bouton */
+      }
+
+      .mobile-menu.show {
+        display: flex; /* Affiche le menu quand activé */
+      }
+    }
+</style>
+  <div class="navbar-links">
+  <a href="index.html">Home</a>
+  <a href="Product.html">Products</a>
+
+  <!-- LOGO IN THE CENTER -->
+   <a href="index.html">
+      <img src="image/logo-removebg-preview.png" alt="Logo" class="logo">
+    </a>
+
+  <a href="labreport.html">Lab Report</a>
+  <a href="storelocation.html">Store Location</a>
+</div>
+    
+    
+    <button class="hamburger" onclick="toggleMenu()">☰</button>
+    <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="Product.html">Products</a>
+    <a href="labreport.html">Lab Reports</a>
+    <a href="location.html">Store Locator</a>
+    
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("mobileMenu").classList.toggle("show");
+    }
+  </script>
+
+
+     
+  </div>
